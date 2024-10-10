@@ -11,7 +11,8 @@
     "prepare": "husky install",
     "test": "vitest",
     "lint": "eslint --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@logux/eslint-config": "52.0.1",
