@@ -1,6 +1,6 @@
 import { addBanner } from './banner.js';
 import styles from './counter.module.css';
-import './postcss.css';
+import './postcss.scss';
 export const initializeCounter = (doc = globalThis.document) => {
   const countElement = doc.getElementById('count');
   const incrementButton = doc.getElementById('increment');
